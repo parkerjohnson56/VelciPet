@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+VelciPet Website
 
-## Getting Started
+Welcome to VelciPet’s online presence! This project includes a professional landing page and a conversion page designed to provide an easy and welcoming experience for pet owners to learn about our services and schedule appointments.
 
-First, run the development server:
+Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+VelciPet is dedicated to offering compassionate and high-quality veterinary care for pets. This website reflects that mission with a clean, professional design that's easy to navigate and user-friendly on all devices.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Features-
+Landing Page:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Introduces VelciPet's mission, services, and team.
+Includes a “Make an Appointment” button linking to the scheduling page.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Conversion Page:
+Simple and clear appointment form with client-side validation.
+Responsive design for desktop and mobile.
 
-## Learn More
+Technology
+Landing Page: Built with Next.js, TypeScript, and Tailwind CSS.
+Conversion Page: Developed using plain HTML, CSS, and JavaScript.
+Images are sourced from Unsplash or provided design assets.
 
-To learn more about Next.js, take a look at the following resources:
+Deployment
+The live version is hosted on Vercel. View the site here:  https://velci-pet-care.vercel.app/
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Acknowledgments
+Images: Unsplash and provided assets.
+Design inspiration and tools: Tailwind CSS, Next.js.
