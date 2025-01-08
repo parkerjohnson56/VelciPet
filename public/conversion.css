@@ -1,0 +1,154 @@
+body, h1, p, a, img, nav {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* General container styling */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column; /* Default to column layout for mobile */
+    align-items: center;    /* Center everything horizontally */
+    gap: 20px;              /* Add space between elements */
+  }
+  
+  /* Header styles */
+  .header {
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px 0;
+  }
+  
+  /* Logo styles */
+  .logo-link {
+    text-decoration: none;
+  }
+  
+  .logo {
+    height: 50px;
+    display: block;
+  }
+  
+  /* Navigation styles */
+  .nav {
+    display: flex;
+    gap: 20px;               /* Add spacing between links */
+    flex-wrap: wrap;         /* Allow links to wrap on smaller screens */
+    justify-content: center; /* Center navigation links */
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #007BFF; /* Change to blue on hover */
+  }
+  
+  /* Button styles */
+  .btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Main Content */
+  .main {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .subtitle {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .notice {
+    font-size: .9rem;
+    margin-bottom: 30px;
+    font-style: italic;
+  }
+  
+  .form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input, select {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Footer */
+  .footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  /* Responsive Design */
+  @media (min-width: 768px) {
+    .container {
+      flex-direction: row;      /* Switch to horizontal layout on larger screens */
+      justify-content: space-between; /* Space between logo and nav */
+      align-items: center;
+    }
+  
+    .nav {
+      justify-content: flex-end; /* Align navigation links to the right */
+    }
+  
+    .logo {
+      margin-bottom: 0; /* Remove bottom margin on larger screens */
+    }
+  }
+  
