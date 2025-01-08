@@ -82,7 +82,7 @@ export default function Home() {
             />
             <h3 className="text-xl font-semibold mt-4">Emergency Services</h3>
             <p className="text-gray-600 mt-2">
-              We're here when you need us most, 24/7.
+              We&#39;re here when you need us most, 24/7.
             </p>
           </div>
         </div>
