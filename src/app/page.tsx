@@ -24,26 +24,26 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <section className="relative bg-[url('/images/hero.jpg')] bg-cover bg-center bg-fixed h-[100vh] flex items-center justify-center text-center">
-        {/* Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-black/50 to-black/10"></div>
-
-        {/* Content */}
-        <div className="relative p-8 rounded">
-          <h1 className="text-4xl font-bold text-white">
-            Compassionate Care for Your Pets
-          </h1>
-          <p className="text-white mt-4">
-            Where pets feel at home with personalized care and professional services.
-          </p>
-          <a
-            href="conversion.html"
-            className="mt-6 bg-blue-500 text-white px-6 py-3 rounded inline-block hover:bg-blue-600"
-          >
-            Make an Appointment
-          </a>
-        </div>
-      </section>
+      <section className="relative bg-[url('/images/hero.jpg')] bg-cover bg-center bg-no-repeat h-[100vh] flex items-center justify-center text-center bg-scroll sm:bg-fixed">
+      {/* Gradient Overlay */}
+      <div className="absolute inset-0 bg-gradient-to-b from-black/50 to-black/10"></div>
+      {/* Content */}
+      <div className="relative p-8 rounded">
+        <h1 className="text-4xl font-bold text-white">
+          Compassionate Care for Your Pets
+        </h1>
+        <p className="text-white mt-4">
+          Where pets feel at home with personalized care and professional
+          services.
+        </p>
+        <a
+          href="/conversion.html"
+          className="mt-6 bg-blue-500 text-white px-6 py-3 rounded inline-block hover:bg-blue-600"
+        >
+          Make an Appointment
+        </a>
+      </div>
+    </section>
 
       {/* Services Section */}
       <section id="services" className="container mx-auto p-8">
